@@ -1,0 +1,72 @@
+
+/*Параметры по тэгам---------------------------------------------------------*/
+
+p, ul, ol {
+	color:#555555;
+	font-family:Verdana, "Geneva CY", "DejaVu Sans", sans-serif;
+	font-size:16px;
+}
+
+
+
+/*Параметры по классам----------------------------------------------------------*/
+.umbrella {
+	text-align:center;
+	color:#000099;
+}
+
+.cursive {
+	font-style:italic;
+}
+
+.bold {
+	font-weight:bold;	
+	
+}
+
+.underline {
+	text-decoration:underline;
+}
+
+.decoration {
+	text-decoration:line-through;
+} 
+
+.menu {		
+	font-size:22px;	
+	font-family:Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;	
+}
+
+.font_menu {
+	color:red;
+}
+
+.justify {
+	text-align:justify;
+}
+
+
+
+/*Параметры по id--------------------------------------------------------------*/
+
+
+
+
+/*Здесь будут параметры для ссылок--------------------------------------------------*/
+
+a:link {
+	color: #0000FF;
+} 
+
+a:visited {
+	color: #FF0000;
+}
+
+a:hover {
+	color: #FF8C00;
+}
+
+a:active {
+	color: #FF0000;
+}
+
