@@ -1,0 +1,61 @@
+/*CSS for start page*/
+
+h1 {
+	color:white;
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	border-bottom-color:white;
+	padding-bottom:10px;
+	padding-left:10px;
+	
+}
+
+body {
+	width:1200px;
+	height:1200px;
+	background-color: grey;
+	background-image:url(../img/back533.jpg);
+}
+
+
+.menu li {
+	display:inline;
+	border:3px solid white;
+	padding:0px 20px;
+	margin:0px 15px;
+
+}
+
+ul {
+	outline:0;
+	padding-left:0px;
+}
+
+/*Псевдоселекторы ссылок Псевдоселекторы ссылок Псевдоселекторы ссылок Псевдоселекторы ссылок */
+
+a:link {
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+
+a:visited {
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+
+a:hover {
+	color:black;
+	font-weight:bold;
+	background-color:white;
+}
+
+ul li:hover {
+	background-color:white;
+}
+
+li a:active {
+	color:white;
+	font-weight:bold;
+}
