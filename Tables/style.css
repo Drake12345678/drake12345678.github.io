@@ -1,0 +1,60 @@
+/*Таблицы*/
+
+
+h1 {
+	outline: 0 solid red;
+	font-size: 40px;
+	font-family: verdana, sans-serif;
+	color: orange;
+	border-bottom: 4px double orange;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+th {
+	background-color: #cccc00;
+}
+
+td {
+	height: 30px;
+}
+
+table {
+	width: 700px;
+	border: 4px solid #999900;
+	border-collapse: collapse;
+	margin: 5px auto;
+}
+
+.blue {
+	background-color: #e6f2ff;
+
+}
+
+#legend {
+	outline: 0px dotted red;
+	color: #4d4d00;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 5px 5px 5px;
+	
+}
+
+#fieldset {
+	width: 740px;
+	height: 350px;
+	margin:80px auto 20px auto;
+	border: 1px solid #666600;
+	background-color: #ffffcc;
+}
+
+#borderLine {
+	border-top: 2px double black;
+}
+
+
