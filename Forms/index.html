@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<link rel="Shotcut icon" href="favicon4.ico">
+	<link rel="Stylesheet" type="text/css" href="StyleForm.css">
+	<title>Изучаем Веб-формы</title>
+	</head>
+<body>
+	<fieldset class="main">
+		<legend class="bold" align="center">Форма общения с клиентом:</legend>	
+		<div id="wrapper">
+			<form>
+				<fieldset>
+					<legend class="bold">Ввод личных данных:</legend>								
+						<p><label> Введите Ваше имя и фамилию:<br>
+							<input class="personData" type='text' name='userName' placeholder='Не короче 8 и не длиннее 30 знаков' minlength='8' maxlength='30'></label>
+						</p>
+						
+						<p><label>
+							Введите Ваш пароль:<br>
+							<input class="personData" type='password' name='userPassword' placeholder='Не короче 8 и не длиннее 30 знаков' minlength='8' maxlength='30'>
+							</label>
+						</p>
+					
+				</fieldset>				
+				<fieldset>
+					<legend class="bold">Место Вашего жительства?</legend>
+					<p>
+						
+						<label>Россия<input type='radio' name='country' value='russia'></label>&emsp;
+						<label>Англия<input type='radio' name='country' value='england'></label>&emsp;
+						<label>Германия<input type='radio' name='country' value='germany'></label>&emsp;
+						<label>США<input type='radio' name='country' value='usa'></label>&emsp;
+						<label>Канада<input type='radio' name='country' value='canada' checked></label>&emsp;
+					</p>
+				</fieldset>				
+				<fieldset>
+					<legend class="bold">В каких городах вы хотели бы побывать?</legend>
+					<p>
+						
+						<label>London<input type='checkbox' name='London'></label>&emsp;
+						<label>Moscow<input type='checkbox' name='Moscow' checked></label>&emsp;
+						<label>Berlin<input type='checkbox' name='Berlin'></label>&emsp;
+						<label>Anapa<input type='checkbox' name='Anapa'></label>&emsp;
+						<label>Paris<input type='checkbox' name='Paris'></label>
+					</p>
+				</fieldset>
+				<fieldset>
+					<legend for="textarea" class="bold">Ваше письмо:</legend>
+					<textarea id="textarea" placeholder="Здесь Вы можете написать Ваши пожелания. Мы обязатьельно ответим Вам в течение 2-3 суток..."></textarea>
+				</fieldset>
+				<p>
+					<input class="bold" type='reset' name='reset' value='Очистить формы'>&emsp;
+					<input class="bold" type='submit' name='submit' value='OK'>
+				</p>							
+			</form>
+		</div><!--wrapper-->
+	</fieldset>			
+</body>
+
+
+
+</html>

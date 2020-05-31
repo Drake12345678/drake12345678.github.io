@@ -1,0 +1,79 @@
+/*Work with forms*/
+/*teg------------------------------------------------------------------------*/
+body {
+	font-size:17px;
+	font-family:arial, sans-serif;
+	color:#004d00;
+	
+}
+
+fieldset {
+	border:2px solid #00091a;
+	padding:7px 20px;
+	margin:10px 10px;
+	background-image:url(ava7patterns_pattern_1811.png);
+}
+
+textarea {
+	width:500px;
+	height:70px;
+	padding: 0px 10px;
+	resize:none;
+	background-color:#dbecfe;
+	font-size:15px;
+}
+
+textarea:focus {
+	border:2px solid #00091a;
+	background:none;
+	background-color:white;
+}
+
+textarea:hover {
+	border:2px solid #00091a;
+	background:none;
+	background-color:#f0f7ff;
+}
+
+label {
+	cursor:pointer;
+} 
+
+#wrapper { /*Блок-обёртка для четырёх fieldset*/
+	outline:0px solid brown;
+	width:650px;
+	margin:30px;
+	
+
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.main { /*Основной большой fieldset*/
+	width:800px;	
+	background:none;
+	background-color:white;
+	padding:1px;
+	margin:0 10px 5px 10px;
+}
+
+.personData { /*Это input и для имени, и для пароля.*/
+	height:27px;
+	width:500px;
+	background-image:url(inputbg.jpg);
+	background-repeat:repeat-x;
+}
+
+.personData:focus {
+	border:2px solid #00091a;
+	background:none;
+	background-color:white;
+}
+
+.personData:hover {
+	border:2px solid #00091a;
+	background:none;
+	background-color:#f0f7ff;
+}
