@@ -3,11 +3,10 @@
 h1 {
 	color: #ffffff;
 	border-bottom-style:solid;
-	border-bottom-width:2px;
+	border-bottom-width:3px;
 	border-bottom-color: #ffffff;
 	padding-bottom:10px;
-	padding-left:10px;
-	
+	padding-left:10px;	
 }
 
 body {
@@ -16,18 +15,19 @@ body {
 	background-image:url(../img/back533-min.jpg);
 }
 
-
 .menu li {
 	display:inline;
 	border:3px solid #ffffff;
-	padding:0px 20px;
+	padding:10px 0px;
 	margin:0px 15px;
-
 }
 
 ul {
-	outline:0;
 	padding-left:0px;
+}
+
+a {
+	padding: 10px 20px;
 }
 
 /*Псевдоселекторы ссылок Псевдоселекторы ссылок Псевдоселекторы ссылок Псевдоселекторы ссылок */
