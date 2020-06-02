@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang=ru>
+<head>
+	<title>Float</title>
+	<mega charset="utf-8">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon2.ico">
+	<link rel="icon" type="image/x-icon" href="favicon2.ico">	
+	<style>
+				div {
+			font-size: 16px;
+			font-family: arial;
+			color: blue;
+			border: 2px double black;
+		}
+
+		#wrapper {
+			border: 2px double black;
+			width: 800px;
+			padding: 10px;
+			margin: 10px auto;
+		}
+
+		#header {
+			height: 77px;
+			background-color: #ffd280;
+			margin-bottom: 12px;
+			margin-top: 12px;
+		}
+
+		#sidebarLeft {
+			outline: 0px dashed red;
+			height: 90px;
+			background-color: #cccccc;
+			margin-bottom: 12px;
+			width: 150px;
+			float: left;		
+		}
+
+		#sidebarRight {
+			outline: 0px dashed red;
+			height: 150px;
+			background-color: #cccccc;
+			margin-bottom: 12px;
+			width: 150px;
+			float: right;	
+		}
+
+		#content {
+			height: 77px;
+			width: 480px;
+			background-color: #ff0000;
+			margin-bottom: 12px;
+			margin: 12px auto;
+		}
+
+		#footer {
+			height: 77px;
+			background-color: lightgreen;
+			margin-bottom: 12px;
+		}
+
+		.clear {
+			clear: left;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">		
+		<div id="header">Header</div>
+		<div id="sidebarLeft">SidebarL<br>Float</div>
+		<div id="sidebarRight">SidebarR<br>Float</div>		
+		<div id="content">Content</div>				
+		<div id="footer" class="clear">Footer</div>			
+	</div><!--id="wrapper"-->
+</body>
+</html>
