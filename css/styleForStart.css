@@ -1,10 +1,10 @@
 /*CSS for start page*/
 
 h1 {
-	color:white;
+	color: #ffffff;
 	border-bottom-style:solid;
 	border-bottom-width:2px;
-	border-bottom-color:white;
+	border-bottom-color: #ffffff;
 	padding-bottom:10px;
 	padding-left:10px;
 	
@@ -19,7 +19,7 @@ body {
 
 .menu li {
 	display:inline;
-	border:3px solid white;
+	border:3px solid #ffffff;
 	padding:0px 20px;
 	margin:0px 15px;
 
