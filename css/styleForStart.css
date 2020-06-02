@@ -34,27 +34,27 @@ ul {
 
 a:link {
 	text-decoration:none;
-	color:white;
+	color: #ffffff;
 	font-weight:bold;
 }
 
 a:visited {
 	text-decoration:none;
-	color:white;
+	color: #ffffff;
 	font-weight:bold;
 }
 
 a:hover {
-	color:black;
+	color: #000000;
 	font-weight:bold;
-	background-color:white;
+	background-color: #ffffff;
 }
 
 ul li:hover {
-	background-color:white;
+	background-color: #ffffff;
 }
 
 li a:active {
-	color:white;
+	color: #ffffff;
 	font-weight:bold;
 }
