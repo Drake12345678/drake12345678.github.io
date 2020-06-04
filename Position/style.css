@@ -1,0 +1,63 @@
+/*css for Position*/
+
+body {
+	background-color: #d9d7b3;
+	color: #696969;
+	font-size: 14px;
+	font-family: arial;
+}
+
+#wrapper {
+	width: 650px;
+	margin: 30px auto;
+	background-color: #f4f4f4;
+}
+
+#header {
+	height: 75px;
+	background-image: url(redHeader.png);
+	position: relative;
+}
+
+#bird {
+	position: absolute;
+	left: 273px;
+	bottom: -4px;
+	z-index: 2;
+}
+
+#buttonInHeader {
+	position: absolute;
+	left: 294px;
+	top: -13px;
+	z-index: 1;
+}
+
+#content {
+	padding: 20px 50px 20px 40px;
+	position: relative;
+
+}
+
+.new {
+	position: absolute;
+	left: 0px;
+	top: 0px;	
+}
+
+#operator {
+	position: fixed;
+	top: 200px;
+	left: 0;
+}
+
+#secret {
+	color: red;
+	font-weight: bold;
+	font-size: 16px;
+	display: none;
+}
+
+
+
+
